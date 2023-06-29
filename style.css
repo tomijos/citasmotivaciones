@@ -1,0 +1,96 @@
+  /* Estilos generales */
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      background: url(imagenes/backgroundImg.jpg) no-repeat center center/cover;                
+    }
+
+    .contenido-centrado{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .contenedor{      
+      width:80vw;
+      max-width: 600px;
+      min-height: 350px;
+      padding: 20px;
+      background-color: white;
+      border: 3px solid rgb(115, 112, 112);
+      border-radius: 30px;
+    }
+
+    .contenedor-interno{
+      width: 80%;
+      
+      border-radius: 15px;
+      color:rgb(108, 107, 107);
+    }
+    #titulo{
+      width: 100;
+      font-weight: bold;
+      text-align: center;
+      font-family: 'Courgette', cursive;
+      font-size: 20px;            
+    }
+    #cita{
+      display: flex;
+      font-size: 18px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin: 10px;
+      font-family: 'Courgette', cursive;          
+    }
+    #autor{
+      display: flex;
+      width: 100;
+      font-size: 13px;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      font-family: 'Courgette', cursive;
+      text-decoration: underline;
+      color:rgb(97, 96, 96);
+    }
+    #boton-cambiar-cita{
+      width: 180px;
+      height: 35px;
+      border-radius: 5px;
+      border: none;
+      background-color: rgb(234, 148, 57);      
+      font-family: 'Courgette', cursive;
+      color:white;
+      font-size: 15px;
+      cursor: pointer;      
+    }
+    #boton-cambiar-cita:hover{
+      background-color:rgb(67, 122, 67);
+      transition: .4s;
+    }
+    .practica{
+
+      font-size: 11px;
+      margin-top: 1rem;
+      text-align: center;
+      font-family: 'Courgette', cursive;
+      
+    }
+    span{
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    
