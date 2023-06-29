@@ -22,7 +22,7 @@
       justify-content: center;
     }
     .contenedor{      
-      width:80vw;
+      width:90vw;
       max-width: 600px;
       min-height: 350px;
       padding: 20px;
@@ -42,11 +42,11 @@
       font-weight: bold;
       text-align: center;
       font-family: 'Courgette', cursive;
-      font-size: 20px;            
+      font-size: 25px;            
     }
     #cita{
       display: flex;
-      font-size: 18px;
+      font-size: 22px;
       width: 100%;
       align-items: center;
       justify-content: center;
@@ -57,7 +57,7 @@
     #autor{
       display: flex;
       width: 100;
-      font-size: 13px;
+      font-size: 18px;
       align-items: center;
       justify-content: center;
       padding: 20px;
@@ -82,7 +82,7 @@
     }
     .practica{
 
-      font-size: 11px;
+      font-size: 13px;
       margin-top: 1rem;
       text-align: center;
       font-family: 'Courgette', cursive;
