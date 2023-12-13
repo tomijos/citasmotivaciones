@@ -11,7 +11,7 @@
     function cambiarCita(){        
         let indiceAleatorio = numeroAleatorio(0, citas.length);
         cita.innerText = `"${citas[indiceAleatorio].texto}"`;
-        autor.innerHTML = `${citas[indiceAleatorio].autor}`;  
+        autor.innerHTML = `${citas[indiceAleatorio].autor}`;          
     }
     
     //Cambiar cita, al dar click al btn

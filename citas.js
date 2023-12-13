@@ -45,6 +45,14 @@
                 autor: "Steve Jobs", 
                 texto: "La programación es el arte de crear algo de la nada."
                },
+               {
+                autor: "La vida",
+                texto : "A veces, enfrentamos desafíos que parecen insuperables, pero es en esos momentos difíciles donde encontramos nuestra verdadera fortaleza y resiliencia."
+               },
+               {
+                autor: "La vida",
+                texto : "Es importante recordar que cada persona tiene su propio camino y ritmo. Compararnos con los demás puede generar frustración e insatisfacción."
+               },
                { 
                 autor: "Linus Torvalds", texto: "El software es como el sexo: es mejor cuando es gratis." 
               },
