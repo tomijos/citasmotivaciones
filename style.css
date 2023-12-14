@@ -12,7 +12,8 @@
       align-items: center;
       height: 100vh;
       text-align: center;
-      background: url(imagenes/backgroundImg.jpg) no-repeat center center/cover;                
+      background: url(imagenes/backgroundImg.jpg) no-repeat center center/cover;                 
+      background-color: rgb(26, 26, 36);
     }
 
     .contenido-centrado{
@@ -27,7 +28,7 @@
       min-height: 350px;
       padding: 20px;
       background-color: white;
-      border: 3px solid rgb(115, 112, 112);
+      border: 3px solid rgb(84, 80, 80);
       border-radius: 30px;
     }
 
@@ -81,9 +82,8 @@
       transition: .4s;
     }
     .practica{
-
-      font-size: 13px;
-      margin-top: 1rem;
+      color:white;
+      font-size: 13px;      
       text-align: center;
       font-family: 'Courgette', cursive;
       
